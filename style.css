@@ -1,0 +1,342 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #181818;
+    color: #f3ecec;
+    font-family: 'Segoe UI', 'Meiryo', Arial, sans-serif;
+}
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px #0008;
+    padding: 0 0 24px 0;
+    border-left: 5px solid #444;
+    border-right: 5px solid #444;
+}
+
+header {
+    background-image: url(photos/v.jpg);
+    background-size: cover;
+    height: 280px;
+    border-radius: 16px 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 20px;
+}
+
+h1 {
+    color: #f3f8f1;
+    font-family: serif;
+    font-size: 3rem;
+    margin-bottom: 8px;
+}
+h3 {
+    color: #d8e7e4;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    background: #111;
+    border-radius: 0 0 12px 12px;
+    overflow: hidden;
+}
+nav a {
+    display: block;
+    width: 140px;
+    color: #f3ecec;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background 0.2s, color 0.2s;
+}
+nav a:hover {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main h2{
+    color: #fff9f9;
+    font-size: 1.5rem;
+    margin-top:40px;
+    padding: 20px; ;
+    text-align: left;
+    line-height: 1.4;
+    background: #222;
+    background-position: center;
+    font-weight: 700;
+    text-shadow: rgb(128, 230, 11) 1px 0 10px;
+
+}
+.mainpic {
+    width: 400px;
+    height: 500px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px #0008;
+    margin-right: 15px;
+    margin: 5px;
+}
+.mainpic:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+.description1{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 30px 0px 0px;
+}
+/*-------スリランカの名所--------*/
+.sights1 h2{
+    background: #222;
+    color: #e7e7e7;
+    text-shadow:  1px 1px 2px red,0 0 1em blue,0 0 0.2em blue;
+    padding: 6px 12px;
+    margin-top: 30px;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.sights1 h2 a{
+    background:none;
+    margin: 2px;
+    color: rgb(243, 240, 228);
+    text-decoration: none;
+}
+.sights1 h2 a:hover{
+    text-decoration: underline;
+}
+.sights1 p{
+    text-align: justify;
+    margin-top: 0px;
+    color: azure;
+}
+.sights1 img{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 10px #999999;
+}
+.sights1 br{
+    clear: both;
+}
+.all-photos {
+    background-color: #1d2022;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+ .r-photos img{
+    width: 400px;
+    height: 300px;
+    display: inline;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+ .n-photos img{
+    width: 300px;
+    height: 200px;
+    margin: 30px auto;
+    padding:10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+ .ya-photos img{
+     width: 300px;
+     height: 200px;
+     margin: 30px auto;
+     padding:10px;
+     box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+/*-------イベント情報-------*/
+.event {
+    padding: 30px;
+    min-height: 200px;
+}
+
+.event p {
+    background: #5c5656;
+    color: #e7dca7;
+    box-shadow: 4px 4px 8px #0006;
+    padding: 12px 16px;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin: 30px 0px 0px;
+}
+.event h3 {
+    color: #ebeee7;
+    margin: 24px 0 12px 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#manipic p{
+    text-decoration: underline;
+    background: none;
+    box-shadow: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+#manipic .description{
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 1rem;
+    line-height: 1.6;
+    background: #110c0c;
+    color: #ffffff;
+    padding: 12px 16px;
+}
+
+#manipic h3{
+    text-align: right;
+}
+#manipic img {
+   width: 500px;
+   height: 300px;
+   border-radius: 10px;
+   margin: 20px;
+}
+#manipic img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+#manipic2 img {
+   width: 500px;
+    height: 300px;
+    border-radius: 10px;
+     margin: 20px;
+    align-items: center;
+}
+#manipic2 img:hover {
+    transform: scale(1.05);
+}
+.all-photos1{
+    background-color: #1d2022;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.all-photos1 p {
+    color: #fff;
+    padding: 12px 16px;
+    border-bottom: 1px solid #444;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.new-photos img{
+     width: 300px;
+     height: 200px;
+     display: inline;
+     margin: 20px auto;
+     padding: 10px;
+     box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+/*-----photos-----*/
+.photo1 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: flex-start;
+     margin: 30px 0;
+     padding: 10px;
+}
+.photo1 img {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+}
+.photo1 img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+/*-------リンク集--------*/
+.link {
+    margin: 30px 0;
+}
+.link h2{
+    background: #222;
+    color: #837708;
+    box-shadow: 4px 4px 8px #0006;
+    padding: 10px;
+    margin: 30px;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.link-ss {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 30px 0;
+}
+.link-ss ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    text-align: justify;
+}
+.link-ss li {
+    margin-bottom: 14px;
+}
+.link-ss a {
+    color: #552744;
+    background: #967373;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px #a80e6d22;
+    transition: background 0.2s, color 0.2s;
+    display: inline-block;
+    font-weight: bold;
+}
+.link-ss a:hover {
+    background: #570517;
+    color: #fff;
+}
+/*--------footer-------*/
+footer {
+    background: #111;
+    padding: 15px;
+    font-size: 13px;
+    text-align: center;
+    color: #f3ecec;
+    font-family: 'ＭＳ明朝', serif;
+    border-radius: 0 0 16px 16px;
+    margin-top: 90px;
+}
+.toppage {
+    text-align: right;
+    margin-top: 25px;
+}
+.toppage a {
+    color: #fff;
+    text-decoration: none;
+    background: #7b8a78;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 13px;
+}
+.toppage a:hover {
+    
+    color: #23551f;
+}
